@@ -126,6 +126,15 @@ name {
   -webkit-transition: opacity .2s ease-in-out;
 }
 
+.underline-on-hover {
+  text-decoration: none;
+  color: black;
+}
+.underline-on-hover:hover {   /* underline text when mouse hovering */
+  text-decoration: underline;
+  color: black;
+}
+
 span.highlight {
   background-color: #ffffd0;
 }
